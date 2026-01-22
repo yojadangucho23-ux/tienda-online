@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>ElectroShop | Tienda de Electrónicos</title>
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <div class="container header-content">
+      <h1 class="logo">⚡ ElectroShop</h1>
+
+      <div class="search-box">
+        <input id="searchInput" type="text" placeholder="Buscar productos... (ej: audífonos, laptop)" />
+      </div>
+
+      <button class="cart-btn" id="openCart">
+        🛒 Carrito <span id="cartCount">0</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-content">
+      <h2>Los mejores electrónicos al mejor precio 🔥</h2>
+      <p>Compra rápido, seguro y con envío a tu ciudad. Calidad garantizada.</p>
+      <a href="#productos" class="btn-primary">Ver productos</a>
+    </div>
+  </section>
+
+  <!-- CATEGORÍAS -->
+  <section class="categories container">
+    <h3>Categorías</h3>
+    <div class="category-list">
+      <button class="cat-btn active" data-category="Todos">Todos</button>
+      <button class="cat-btn" data-category="Celulares">Celulares</button>
+      <button class="cat-btn" data-category="Computadoras">Computadoras</button>
+      <button class="cat-btn" data-category="Accesorios">Accesorios</button>
+      <button class="cat-btn" data-category="Audio">Audio</button>
+    </div>
+  </section>
+
+  <!-- PRODUCTOS -->
+  <main class="container" id="productos">
+    <h3 class="section-title">Productos destacados</h3>
+    <div class="grid" id="productGrid"></div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>© 2026 ElectroShop - Todos los derechos reservados.</p>
+      <p>📍 Envíos a todo el país | 💳 Pago seguro | ⭐ Garantía</p>
+    </div>
+  </footer>
+
+  <!-- MODAL CARRITO -->
+  <div class="cart-modal" id="cartModal">
+    <div class="cart-box">
+      <div class="cart-header">
+        <h3>🛒 Tu carrito</h3>
+        <button class="close-btn" id="closeCart">✖</button>
+      </div>
+
+      <div class="cart-items" id="cartItems"></div>
+
+      <div class="cart-footer">
+        <div class="total">
+          <strong>Total:</strong> <span id="cartTotal">$0.00</span>
+        </div>
+        <button class="btn-primary" id="checkoutBtn">Finalizar compra</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- BOTÓN WHATSAPP -->
+  <a class="whatsapp-btn" target="_blank"
+     href="https://wa.me/593000000000?text=Hola%20quiero%20comprar%20productos%20electr%C3%B3nicos%20en%20ElectroShop">
+    💬
+  </a>
+
+  <script src="app.js"></script>
+</body>
+</html>
