@@ -167,3 +167,4 @@ document.getElementById("checkoutBtn").addEventListener("click", () => {
 });
 
 renderProducts(products);
+
