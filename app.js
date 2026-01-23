@@ -1,10 +1,10 @@
 const products = [
   {
     id: 1,
-    name: "iPhone 13 Pro",
+    name: "Airpods pro 2da gen",
     category: "Celulares",
-    price: 699,
-    desc: "Potente, elegante y con cámara Pro.",
+    price: $20,
+    desc: "Potente, elegante y con cancelacion de ruido.",
     img: "https://images.unsplash.com/photo-1631532151868-5e6a1b0b6d0c?auto=format&fit=crop&w=800&q=80"
   },
   {
@@ -167,4 +167,5 @@ document.getElementById("checkoutBtn").addEventListener("click", () => {
 });
 
 renderProducts(products);
+
 
