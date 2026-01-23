@@ -5,8 +5,7 @@ const products = [
     category: "Celulares",
     price: $20,
     desc: "Potente, elegante y con cancelacion de ruido.",
-    img: "https://images.unsplash.com/photo-1631532151868-5e6a1b0b6d0c?auto=format&fit=crop&w=800&q=80"
-  },
+    img: https://powerhouseexpress.com.pk/cdn/shop/files/airpods-pro-2-tungsten-anc-with-usb-c.webp?v=1745668759
   {
     id: 2,
     name: "Laptop Gamer ASUS",
@@ -167,5 +166,6 @@ document.getElementById("checkoutBtn").addEventListener("click", () => {
 });
 
 renderProducts(products);
+
 
 
