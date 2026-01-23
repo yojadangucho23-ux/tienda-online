@@ -1,50 +1,22 @@
 const products = [
   {
-    id: 1,
-    name: "Airpods pro 2da gen",
-    category: "Celulares",
-    price: $20,
-    desc: "Potente, elegante y con cancelacion de ruido.",
-    img: https://powerhouseexpress.com.pk/cdn/shop/files/airpods-pro-2-tungsten-anc-with-usb-c.webp?v=1745668759
-  {
-    id: 2,
-    name: "Laptop Gamer ASUS",
-    category: "Computadoras",
-    price: 899,
-    desc: "Rendimiento brutal para juegos y trabajo.",
-    img: "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: 3,
-    name: "Audífonos Bluetooth",
-    category: "Audio",
-    price: 49,
-    desc: "Sonido claro y batería duradera.",
-    img: "https://images.unsplash.com/photo-1518441902117-f0a6a2b9a54d?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: 4,
-    name: "Smartwatch Deportivo",
-    category: "Accesorios",
-    price: 79,
-    desc: "Mide tu salud y rendimiento diario.",
-    img: "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: 5,
-    name: "Teclado Mecánico RGB",
-    category: "Accesorios",
-    price: 35,
-    desc: "Ideal para gamers y productividad.",
-    img: "https://images.unsplash.com/photo-1618384887929-16ec33fab9ef?auto=format&fit=crop&w=800&q=80"
-  },
-  {
-    id: 6,
-    name: "Parlante Portátil",
-    category: "Audio",
-    price: 59,
-    desc: "Buen bajo y sonido potente para fiestas.",
-    img: "https://images.unsplash.com/photo-1585386959984-a41552231693?auto=format&fit=crop&w=800&q=80"
+    {
+  id: 9,
+  name: "AirPods Pro 2 (2da Generación)",
+  category: "Audio",
+  price: 210,
+  desc: "Cancelación activa de ruido, modo transparencia y estuche MagSafe.",
+  img: "https://images.unsplash.com/photo-1585386959984-a41552231693"
+},
+{
+  id: 10,
+  name: "AirPods 4",
+  category: "Audio",
+  price: 160,
+  desc: "Sonido mejorado, conexión rápida y batería de larga duración.",
+  img: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf"
+},
+
   }
 ];
 
@@ -166,6 +138,7 @@ document.getElementById("checkoutBtn").addEventListener("click", () => {
 });
 
 renderProducts(products);
+
 
 
 
