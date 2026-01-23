@@ -1,24 +1,19 @@
-const products = [
-  {
-    {
+{
   id: 9,
-  name: "AirPods Pro 2 (2da Generación)",
+  name: "AirPods Pro 2",
   category: "Audio",
-  price: 210,
-  desc: "Cancelación activa de ruido, modo transparencia y estuche MagSafe.",
+  price: 20,
+  desc: "Sonido premium, conexión rápida. Envío incluido 🚚📦",
   img: "https://images.unsplash.com/photo-1585386959984-a41552231693"
 },
 {
   id: 10,
   name: "AirPods 4",
   category: "Audio",
-  price: 160,
-  desc: "Sonido mejorado, conexión rápida y batería de larga duración.",
+  price: 30,
+  desc: "Excelente sonido, batería duradera. Envío incluido 🚚📦",
   img: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf"
 },
-
-  }
-];
 
 let cart = [];
 
@@ -138,6 +133,7 @@ document.getElementById("checkoutBtn").addEventListener("click", () => {
 });
 
 renderProducts(products);
+
 
 
 
